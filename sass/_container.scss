@@ -1,0 +1,8 @@
+@use "function";
+
+.container{
+    max-width: function.container(1400, 115, 20);
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 20px;
+}
